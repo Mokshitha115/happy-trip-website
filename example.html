@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Best Reviews</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f7f9fc;
+      margin: 0;
+      padding: 2rem;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .reviews {
+      display: grid;
+      gap: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .review-card {
+      background: #ffffff;
+      border-radius: 10px;
+      padding: 1.5rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      transition: transform 0.3s;
+    }
+
+    .review-card:hover {
+      transform: scale(1.02);
+    }
+
+    .reviewer {
+      font-weight: bold;
+      color: #2b6cb0;
+      margin-bottom: 0.5rem;
+    }
+
+    .stars {
+      color: gold;
+      margin-bottom: 0.5rem;
+    }
+
+    .quote {
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🌟 What People Are Saying</h1>
+
+  <div class="reviews">
+    <div class="review-card">
+      <div class="reviewer">Dharmik Tej</div>
+      <div class="stars">★★★★★</div>
+      <div class="quote">"Truly a life-changing experience. Every moment felt magical and inspiring."</div>
+    </div>
+
+    <div class="review-card">
+      <div class="reviewer">Deepika</div>
+      <div class="stars">★★★★☆</div>
+      <div class="quote">"Very well-organized and easy to follow. I’d highly recommend it to anyone."</div>
+    </div>
+
+    <div class="review-card">
+      <div class="reviewer">Sailaja Naidu</div>
+      <div class="stars">★★★★★</div>
+      <div class="quote">"The destination was stunning and the experience was beyond my expectations!"</div>
+    </div>
+
+    <div class="review-card">
+      <div class="reviewer">Lalith</div>
+      <div class="stars">★★★★★</div>
+      <div class="quote">"I learned so much while having fun. It's rare to find something this valuable."</div>
+    </div>
+  </div>
+
+</body>
+</html>
